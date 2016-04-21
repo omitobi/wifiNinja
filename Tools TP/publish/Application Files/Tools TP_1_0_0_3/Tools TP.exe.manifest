@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Tools TP.exe" version="1.0.0.3" publicKeyToken="5d54676b70eff15b" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="favicon_003.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Tools TP" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Tools TP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.ATLTaxControlLib.dll" size="4608">
+      <assemblyIdentity name="AxInterop.ATLTaxControlLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3QKmFnvaPqHZT/kSBr7w37k4pg8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.AXVLC.dll" size="25088">
+      <assemblyIdentity name="AxInterop.AXVLC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7qmI81FO/xGqsE+/BKeMm83eB3s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.SHDocVw.dll" size="42496">
+      <assemblyIdentity name="AxInterop.SHDocVw" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0C0Rq6UJiBXzlsH4LSemY1X4+uU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.SystemMonitor.dll" size="19968">
+      <assemblyIdentity name="AxInterop.SystemMonitor" version="3.7.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hme+yBj5lAUAkQnnTMgoTMm18c8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ATLTaxControlLib.dll" size="33280">
+      <assemblyIdentity name="Interop.ATLTaxControlLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Xfi55cWNtyZ2OQ0ozuwkcSyrfIs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.AXVLC.dll" size="40448">
+      <assemblyIdentity name="Interop.AXVLC" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/hSgMqRfiDbGKDkupkb24zkX5zw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.SHDocVw.dll" size="139264">
+      <assemblyIdentity name="Interop.SHDocVw" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9Brt4pJF4oF4V+eK63PFHeVcJrI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.SystemMonitor.dll" size="56832">
+      <assemblyIdentity name="Interop.SystemMonitor" version="3.7.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Z3JKjWvhORsB+HFAfklisWFgd/4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tools TP.exe" size="71168">
+      <assemblyIdentity name="Tools TP" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>u4hM91moG3XIoDIISK/phq/XBy4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon_003.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cRkmC1ShP+YH6OepnGqPC57vDZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=OMISAKINOLUWATO\OMISAKIN OLUWATOBI" issuerKeyHash="4562b933ea966856711d1f91b070230b2b91129c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8t747PtPYTuttwns4kOnuXPlMWw=</DigestValue></Reference></SignedInfo><SignatureValue>Nm1/AX3gRp9IaFXdg5BHLpp8zixrgQgjYGnigRYvBgk5WKGshSNdm9Kiv89mz56iczn2DuNii3k2LkJ/IvJ2JD/Ohn8T0R3xjPFhC3eQaUuniomAoh8ijVCzkDcbiFQJ1qqi64mOVTn4fiTA+2uHhi4OEOc0BZDDRz/qafjH1aU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sFeJ2E0peDhp1DZ1uZbxVE9vlR23V0U18sEtNQDjyiAkTRObHLcu5b+m2cIDQfrhnjgguGFLDLL6H/N7fUwlsnc6XQ6H5OItoKvy2GKZMG7TZ2DkLx7IxHsXrzvwhKlTVgl091R0OB5qXC8uosdewidnljoKAEeh3dtB4UzF7zU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6c31e573b9a743e2ec09b7ad3b614ffbecf8def2" Description="" Url=""><as:assemblyIdentity name="Tools TP.exe" version="1.0.0.3" publicKeyToken="5d54676b70eff15b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OMISAKINOLUWATO\OMISAKIN OLUWATOBI</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>K7+iMlXLDEvAAFjJi+UXYMwXfwQ=</DigestValue></Reference></SignedInfo><SignatureValue>BJKRopJgZtQaOyPcxt0oZ2KFyGq7fRlqGNKxOaRqeZHgzfOfaSnU96Gsrnjj6ja8nrDts+lN6Q2s5wXtn3Amtfuwf4IlwfgGZgSe6Jju0KTks7th50kHvoXYdLrLw8OttQvwBPlR3FkbGTeoSmMC1eTIEB8u3+3zZYAk3stYzX4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sFeJ2E0peDhp1DZ1uZbxVE9vlR23V0U18sEtNQDjyiAkTRObHLcu5b+m2cIDQfrhnjgguGFLDLL6H/N7fUwlsnc6XQ6H5OItoKvy2GKZMG7TZ2DkLx7IxHsXrzvwhKlTVgl091R0OB5qXC8uosdewidnljoKAEeh3dtB4UzF7zU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICITCCAYqgAwIBAgIQHVc5RziqFqNFWlQTCg3irjANBgkqhkiG9w0BAQUFADBPMU0wSwYDVQQDHkQATwBNAEkAUwBBAEsASQBOAE8ATABVAFcAQQBUAE8AXABPAE0ASQBTAEEASwBJAE4AIABPAEwAVQBXAEEAVABPAEIASTAeFw0xNjAxMDMwMjM4MThaFw0xNzAxMDIwODM4MThaME8xTTBLBgNVBAMeRABPAE0ASQBTAEEASwBJAE4ATwBMAFUAVwBBAFQATwBcAE8ATQBJAFMAQQBLAEkATgAgAE8ATABVAFcAQQBUAE8AQgBJMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwV4nYTSl4OGnUNnW5lvFUT2+VHbdXRTXywS01AOPKICRNE5scty7lv6bZwgNB+uGeOCC4YUsMsvof83t9TCWydzpdDofk4i2gq/LYYpkwbtNnYOQvHsjEexevO/CEqVNWCXT3VHQ4HmpcLy6ix17CJ2eWOgoAR6Hd20HhTMXvNQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACokj1ywUolRCIorcEb1Jg6qgCBH+fz0IOJW4e1Y1R9feEYFZL7CIORgqEDzOVLFKnC5MIO4ehETgc++FkwZ9HBnR2jWsVKZiFQTmhgQNPzqrpBvbCLj++xDosh6l8qEJ7Sqm2eAfkD3P8WLl/J8sJpB5vbz2dZpNnkCC95u4S+q</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

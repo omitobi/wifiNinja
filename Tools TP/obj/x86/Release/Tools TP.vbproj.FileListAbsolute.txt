@@ -1,0 +1,7 @@
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\Interop.ATLTaxControlLib.dll
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\Interop.AXVLC.dll
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\Interop.SHDocVw.dll
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\Interop.SystemMonitor.dll
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\AxInterop.ATLTaxControlLib.dll
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\AxInterop.SHDocVw.dll
+C:\Users\OMISAKIN OLUWATOBI\Documents\Visual Studio 2010\Projects\Tools TP\Tools TP\obj\x86\Release\AxInterop.SystemMonitor.dll
